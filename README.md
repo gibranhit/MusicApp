@@ -55,16 +55,16 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 
 ## 🔧 Tech Stack
 
-| Herramienta           | Uso                                  |
-|-----------------------|---------------------------------------|
-| Jetpack Compose       | UI moderna declarativa                |
-| Material 3            | Diseño visual                         |
-| Paging 3              | Scroll infinito, carga paginada       |
-| Retrofit + OkHttp     | Consumo de API (Deezer)               |
-| Room + SQLite         | Persistencia local                    |
-| Hilt                  | Inyección de dependencias             |
-| Kotlin Coroutines     | Async + Flow                          |
-| Media3                | Reproductor de preview de audio       |
+| Herramienta       | Uso                                  |
+|-------------------|---------------------------------------|
+| Jetpack Compose   | UI moderna declarativa                |
+| Material 3        | Diseño visual                         |
+| Paging 3          | Scroll infinito, carga paginada       |
+| Retrofit + OkHttp | Consumo de API (Deezer)               |
+| Room              | Persistencia local                    |
+| Hilt              | Inyección de dependencias             |
+| Kotlin Coroutines | Async + Flow                          |
+| Media3            | Reproductor de preview de audio       |
 
 ---
 
