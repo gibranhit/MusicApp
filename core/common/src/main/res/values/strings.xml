@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_internet">Problema de conexión. Verifica tu internet.</string>
+    <string name="error_server">Error del servidor. Intenta más tarde.</string>
+    <string name="error_timeout">Tiempo de espera agotado. Reintenta.</string>
+    <string name="error_unknown_host">No se pudo conectar. ¿Tienes internet?</string>
+    <string name="error_ssl">Error de seguridad en la conexión.</string>
+    <string name="error_parsing">Error al procesar la respuesta del servidor.</string>
+    <string name="error_unexpected">Ocurrió un error inesperado.</string>
+</resources>

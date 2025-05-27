@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_title">%1$s</string>
+    <string name="artist_label">Artista: %1$s</string>
+    <string name="album_label">Álbum: %1$s</string>
+    <string name="no_preview_available">No hay preview disponible</string>
+    <string name="track_ranking">Ranking: #%1$d</string>
+    <string name="details_title">Detalles</string>
+    <string name="duration_label">Duración: %1$s</string>
+    <string name="explicit_label">Explícita: %1$s</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+</resources>

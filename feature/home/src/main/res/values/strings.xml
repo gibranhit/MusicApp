@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_releases_message">Aún no hay lanzamientos disponibles.</string>
+    <string name="error_loading_releases">Ocurrió un error al cargar los lanzamientos</string>
+
+    <!-- UI Search -->
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Artista, canción, álbum...</string>
+    <string name="search_label">Buscar música</string>
+    <string name="search_empty_message">Ingresa al menos 3 caracteres para buscar.</string>
+
+    <!-- UI Home -->
+    <string name="home_title">Hola, Joe Doe</string>
+    <string name="new_releases_title">Nuevos lanzamientos</string>
+    <string name="retry_button">Reintentar</string>
+
+</resources>

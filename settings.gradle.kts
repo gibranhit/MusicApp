@@ -22,3 +22,10 @@ dependencyResolutionManagement {
 rootProject.name = "MusicApp"
 include(":app")
 include(":core:network")
+include(":feature:home")
+include(":feature:detail")
+include(":core:database")
+include(":core:domain")
+include(":feature:search")
+include(":core:data")
+include(":core:common")
