@@ -35,6 +35,24 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 
 ---
 
+## 🧠 Decisiones Técnicas
+
+- 🔨 **Arquitectura Modular + MVI**: se eligió esta combinación para lograr una separación clara de responsabilidades, escalabilidad y testabilidad. Cada feature vive en su propio módulo, siguiendo un enfoque `feature-first`.
+
+- 💾 **Room + RemoteMediator**: permite sincronizar datos de la red y la base local con soporte offline y paginación eficiente.
+
+- 🎨 **Jetpack Compose + Material 3**: Compose permite una construcción moderna de UI declarativa, con menos boilerplate y mejor performance en animaciones y recomposición.
+
+- 🧪 **Enfoque en testing desde el inicio**: se aplicó testing unitario en ViewModels, Repositorios y DataSources.
+
+- 🌐 **API pública de Deezer**: se eligió Deezer para evitar flujos de autenticación complejos como los de Spotify, permitiendo concentrarse en experiencia de usuario, arquitectura y calidad de código.
+
+- 🧩 **Manejo de estados con UiState**: permite centralizar el estado de la UI, facilitar la integración con Compose y simplificar el testing.
+
+- 🔁 **Swipe to Refresh + Paging LoadState**: integración fluida entre scroll infinito y manejo visual de recargas y errores.
+
+---
+
 ## 🔧 Tech Stack
 
 | Herramienta           | Uso                                  |
@@ -85,7 +103,6 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 
 ## 📝 Pendientes / Mejoras futuras
 
-- Mejor manejo de errores global
 - Mejora de navegación con deep links
 - UI testing con `Compose UI Test`
 - Caso de uso para reproductor persistente
@@ -97,5 +114,3 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 **Gibran Reyes** – [LinkedIn](https://www.linkedin.com/in/gibranreyes)
 
 ---
-
-## 🪪 Licencia
