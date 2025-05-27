@@ -84,7 +84,7 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 
 1. Clonar el repo:
    ```bash
-   git clone https://github.com/tu-usuario/MusicApp.git
+   git clone https://github.com/gibranhit/MusicApp.git
    ```
 
 2. Ejecutar en Android Studio (Flamingo o superior).
