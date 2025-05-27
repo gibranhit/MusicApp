@@ -1,5 +1,3 @@
-
-readme_content = """
 # 🎧 MusicApp – Android Developer Assessment
 
 Aplicación inspirada en Deezer para explorar, buscar y guardar música con soporte offline. Desarrollada como parte del assessment técnico para una posición de Android Developer.
@@ -101,10 +99,3 @@ El proyecto sigue una arquitectura **Clean Modular + MVI**, organizada por funci
 ---
 
 ## 🪪 Licencia
-
-MIT
-"""
-
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip(), encoding="utf-8")
-readme_path.name
